@@ -1,0 +1,50 @@
+/* Estilos Base (Modo Claro) */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background 0.3s ease;
+}
+
+.contenidod {
+    background-color: white;
+    color: #333;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9204;
+    color: white;
+    font-weight: bold;
+}
+
+
+.dark {
+    background-color: #222 !important;
+    color: #e5ff00 !important;
+
+}
+
+
+
+.dark button {
+    background-color: #000e8f;
+    color: #ff0000;
+}
